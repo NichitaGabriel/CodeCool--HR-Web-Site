@@ -29,7 +29,25 @@ function sumSalaries() {
   }
 }
 
-function sumSubsetSalaries() {}
+function sumSubsetSalaries() {
+  const employeesSalaries = [
+    6868, 6868, 6868, 6868, 6868, 6868, 6868, 6868, 6868, 6868, 6868,
+  ];
+
+  let startPoint = document.getElementById("starting-point").value;
+  let endPoint = document.getElementById("end-point").value;
+
+  let start = startPoint;
+  let end = endPoint;
+  let sum = 0;
+
+  for (let i = start; i <= end; i++) {
+    sum += employeesSalaries[i];
+  }
+
+  document.getElementById("sum-subset-salaries").innerHTML =
+    "Sum of all salaries from the selected range: " + sum;
+}
 
 function capitalizeFirstLastName() {}
 
