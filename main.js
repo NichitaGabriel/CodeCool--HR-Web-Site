@@ -49,7 +49,27 @@ function sumSubsetSalaries() {
     "Sum of all salaries from the selected range: " + sum;
 }
 
-function capitalizeFirstLastName() {}
+function capitalizeFirstLastName() {
+  let firstName = document.getElementById("capitalize-first-name").value;
+  let lastName = document.getElementById("capitalize-last-name").value;
+
+  let capitalizeFirstName =
+    firstName.toString().charAt(0).toUpperCase() +
+    firstName.toString().slice(1);
+
+  document.getElementById("display-capitalize-first-name").innerHTML =
+    "First name: " + capitalizeFirstName;
+
+  let capitalizeLastName =
+    lastName.toString().charAt(0).toUpperCase() + lastName.toString().slice(1);
+
+  document.getElementById("display-capitalize-last-name").innerHTML =
+    "Last name: " + capitalizeLastName;
+
+  let concatenation = firstName + " " + lastName;
+  document.getElementById("display-concatenated-first-last-name").innerHTML =
+    "First and Last name: " + concatenation;
+}
 
 function getHighestSalary() {}
 
