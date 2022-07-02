@@ -62,10 +62,10 @@ ACME corporation wants to transition from pen and paper for keeping track of it'
 
 ## Background materials
 
-[Strings](https://javascript.info/string)
-[Slicing strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
-[Numbers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
-[Variables](https://htmldog.com/guides/javascript/beginner/variables/)
-[Arrays](https://htmldog.com/guides/javascript/beginner/arrays/)
-[js tutorial](http://jsforcats.com)
-[js video tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg&list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET)
+[Strings](https://javascript.info/string)    
+[Slicing strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)     
+[Numbers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)     
+[Variables](https://htmldog.com/guides/javascript/beginner/variables/)     
+[Arrays](https://htmldog.com/guides/javascript/beginner/arrays/)     
+[js tutorial](http://jsforcats.com)     
+[js video tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg&list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET)     
