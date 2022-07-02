@@ -17,7 +17,9 @@
         <input type="text" placeholder="Enter gross salary" id="gross-salary">
         <input type="submit" value="Calculate Net Salary" onclick="calculateNetSalary()">
     </div>
+
     <hr>
+
     <div class="salary-addition">
         <p id="display-salary-sum">Sum of all Salaries: </p>
         <input type="text" placeholder="Enter salary-1" id="salary-1">
@@ -26,6 +28,15 @@
         <input type="text" placeholder="Enter salary-4" id="salary-4">
         <input type="text" placeholder="Enter salary-5" id="salary-5">
         <input type="submit" value="Sum salaries" onclick="sumSalaries()">
+    </div>
+
+    <hr>
+
+    <div class="salary-ranges">
+        <p id="sum-subset-salaries">Sum of all salaries from the selected range: </p>
+        <input type="text" id="starting-point" placeholder="Starting from">
+        <input type="text" id="end-point" placeholder="Up to">
+        <input type="submit" value="Sum subset salaries" onclick="sumSubsetSalaries()">
     </div>
 
     <script src="main.js"></script>
