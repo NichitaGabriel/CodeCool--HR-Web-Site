@@ -71,7 +71,24 @@ function capitalizeFirstLastName() {
     "First and Last name: " + concatenation;
 }
 
-function getHighestSalary() {}
+function getHighestSalary() {
+  let firstSalary = parseInt(document.getElementById("salary-6").value);
+  let secondSalary = parseInt(document.getElementById("salary-7").value);
+  let thirdSalary = parseInt(document.getElementById("salary-8").value);
+  let fourthSalary = parseInt(document.getElementById("salary-9").value);
+  let fifthSalary = parseInt(document.getElementById("salary-10").value);
+
+  let salaryArray = Math.max(
+    firstSalary,
+    secondSalary,
+    thirdSalary,
+    fourthSalary,
+    fifthSalary
+  );
+
+  document.getElementById("display-highest-salary").innerHTML =
+    "Biggest salary is: " + salaryArray;
+}
 
 function getMatchingPersons() {}
 
