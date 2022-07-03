@@ -90,7 +90,27 @@ function getHighestSalary() {
     "Biggest salary is: " + salaryArray;
 }
 
-function getMatchingPersons() {}
+function getMatchingPersons() {
+  let employees = [
+    "Jhon Smith",
+    "Jhon Carther",
+    "Bonnie Johnson",
+    "Andrew Johnson",
+    "Bob Newtown",
+  ];
+
+  let key = document.getElementById("matching-person-finder").value;
+  let results = [];
+
+  for (let i = 0; i < employees.length; i++) {
+    if (employees[i].indexOf(key) == 0) {
+      results.push(employees[i]);
+    }
+  }
+
+  document.getElementById("display-matching-person").innerHTML =
+    "Matching persons are: " + results;
+}
 
 function isValideNumber() {}
 
